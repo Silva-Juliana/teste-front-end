@@ -14,7 +14,7 @@
         background-color: white;
         width: 50%;
         height: 280px;
-        color: #041E50;
+        color: #041e50;
         border-radius: 5px;
 
         .close {
@@ -31,11 +31,11 @@
             cursor: pointer;
             &:before,
             &:after {
-                content: ' ';
+                content: " ";
                 position: absolute;
                 width: 1.5px;
                 height: 21px;
-                background-color: #0000006b;;
+                background-color: #0000006b;
             }
             &:before {
                 transform: rotate(45deg);
@@ -45,5 +45,4 @@
             }
         }
     }
-
 }

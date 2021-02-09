@@ -11,16 +11,15 @@
     }
   }
 
-
   .li-menu {
     display: block;
     display: flex;
     align-items: center;
-    
+
     #line-menu {
       border: 0;
       height: 4px;
-      background-color: #041E50;
+      background-color: #041e50;
       margin: 0px 4px -15px 1px;
       position: absolute;
       bottom: 0;
@@ -30,11 +29,11 @@
     }
 
     .span-menu {
-        font-family: 'Lato';
-        font-size: 10px;
-        color: #041E50;
-        font-weight: 700;
-        cursor: pointer;
+      font-family: "Lato";
+      font-size: 10px;
+      color: #041e50;
+      font-weight: 700;
+      cursor: pointer;
     }
 
     .imgMenu {

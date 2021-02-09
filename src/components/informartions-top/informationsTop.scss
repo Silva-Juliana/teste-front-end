@@ -1,23 +1,22 @@
+.box-header {
+  display: flex;
+  align-items: center;
 
-  .box-header {
-    display: flex;
-    align-items: center;
-
-    .box-img {
-      margin-right: 13px;
-    }
+  .box-img {
+    margin-right: 13px;
   }
+}
 
-  .text-header {
+.text-header {
+  color: white;
+  font-size: 10px;
+  font-family: "Lato";
+  font-weight: 600;
+
+  .text-header-strong {
     color: white;
     font-size: 10px;
-    font-family: 'Lato';
-    font-weight: 600;
-
-    .text-header-strong {
-      color: white;
-      font-size: 10px;
-      font-family: 'Lato';
-      font-weight: 900;
-    }   
+    font-family: "Lato";
+    font-weight: 900;
   }
+}

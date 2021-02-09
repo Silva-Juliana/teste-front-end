@@ -8,39 +8,39 @@ import imgShure from '../../images/shure.png'
 import '../brands/brands.scss'
 
 
-function Brands(){
+function Brands() {
     return (
-    <>
-        <div className="container-brands">
-            <div className="box-text">
-                <h5>AS <strong>MELHORES</strong> MARCAS</h5>
-                <p className="text-brands">
-                    it is a long established fact that a reader 
-                    will be distracted by the readable
+        <>
+            <div className="container-brands">
+                <div className="box-text">
+                    <h5>AS <strong>MELHORES</strong> MARCAS</h5>
+                    <p className="text-brands">
+                        it is a long established fact that a reader
+                        will be distracted by the readable
                 </p>
+                </div>
+                <div className="box-brands">
+                    <div className="arrow-left">
+                        <img className="img-brands" src={arrowLeft} />
+                    </div>
+                    <div>
+                        <img className="img-brands" src={imgAKG} />
+                    </div>
+                    <div>
+                        <img className="img-brands" src={imgRoland} />
+                    </div>
+                    <div>
+                        <img className="img-brands" src={imgBoss} />
+                    </div>
+                    <div>
+                        <img className="img-brands" src={imgShure} />
+                    </div>
+                    <div className="arrow-right">
+                        <img className="img-brands" src={arrowRight} />
+                    </div>
+                </div>
             </div>
-            <div className="box-brands">
-                <div className="arrow-left">
-                    <img className="img-brands" src={arrowLeft}/>
-                </div>
-                <div>
-                    <img className="img-brands" src={imgAKG}/>
-                </div>
-                <div>
-                    <img className="img-brands" src={imgRoland}/>
-                </div>
-                <div>
-                    <img className="img-brands" src={imgBoss}/>
-                </div>
-                <div>
-                    <img className="img-brands" src={imgShure}/>
-                </div>
-                <div className="arrow-right">
-                    <img className="img-brands" src={arrowRight}/>
-                </div>
-            </div>
-        </div>
-    </>
+        </>
     )
 }
 
