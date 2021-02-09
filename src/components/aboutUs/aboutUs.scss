@@ -1,29 +1,29 @@
 .container-about {
 	margin-top: 56px;
 
-.box-about {
-	max-width: 1002px;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	width: 100%;
-	margin: 0 auto;
+		.box-about {
+			max-width: 1002px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			width: 100%;
+			margin: 0 auto;
 
-	.h5-about{
+		.h5-about{
 			color:#041E50;
 			font-family: 'Lato';
 			font-size: 25px;
 			margin-bottom: 10px;
-	}
+		}
 
-	.p-about {
+		.p-about {
 			color:#041E50;
 			font-family: 'Lato';
 			font-size: 14px;
 			text-align: center; 
-	}
+		}
 
-	.box-grey {
+		.box-grey {
 			background-color: #f6f6f6;
 			margin-top: 50px;
 			height: 185px;
@@ -36,65 +36,65 @@
 			transform: translateY(36px);
 
 			.span-about {
-					color:#041E50;
-					font-family: 'Lato';
-					font-size: 13px;
-					font-weight: 600;
+				color:#041E50;
+				font-family: 'Lato';
+				font-size: 13px;
+				font-weight: 600;
 			}
 
 			.container-resume-about {
-					display: flex;
-					align-items: center;
-					justify-content: space-around;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
 			}
 
 			.arrow_left {
-					cursor: pointer;
+				cursor: pointer;
 			}
 
 			.arrow_right {
-					cursor: pointer;
+				cursor: pointer;
 			}
 
 			.box-resume-about {
-					display: flex;
-					width: 75%;
-					align-items: center;
+				display: flex;
+				width: 75%;
+				align-items: center;
 
-					.arrow-white {
-							width: 0; 
-							height: 0; 
-							border-top: 10px solid transparent;
-							border-bottom: 10px solid transparent; 
-							border-right:10px solid white; 
-							filter: drop-shadow(2px 2px 17px #B8AFC8);
-					}
-					
+				.arrow-white {
+					width: 0; 
+					height: 0; 
+					border-top: 10px solid transparent;
+					border-bottom: 10px solid transparent; 
+					border-right:10px solid white; 
+					filter: drop-shadow(2px 2px 17px #B8AFC8);
+				}
+						
 			}
 
 			.descripition-felipe {
-					margin: 0px 10px 0px 10px;
-					width: 20%;
+				margin: 0px 10px 0px 10px;
+				width: 20%;
 			}
 
 			.text-about {
-					color:#041E50;
-					font-family: 'Lato';
-					font-size: 10px;
+				color:#041E50;
+				font-family: 'Lato';
+				font-size: 10px;
 					
 			}
 
 			.p-text-about {
-					color:#041E50;
-					font-family: 'Lato';
-					font-size: 13px;
+				color:#041E50;
+				font-family: 'Lato';
+				font-size: 13px;
 			}
 
 			.box-white {
-					background-color: white;
-					padding: 10px;
-					border-radius: 5px;
-					box-shadow: 0px 2px 7px 0px rgba(184,175,184,1)
+				background-color: white;
+				padding: 10px;
+				border-radius: 5px;
+				box-shadow: 0px 2px 7px 0px rgba(184,175,184,1)
 			}
 		}
 	}
